@@ -1,7 +1,7 @@
 # Generated using stack2nix 0.2.3.
 
 { pkgs ? (import <nixpkgs> {})
-, compiler ? pkgs.haskell.packages.ghc863
+, compiler ? pkgs.haskell.packages.ghc865
 }:
 
 with pkgs.haskell.lib;
